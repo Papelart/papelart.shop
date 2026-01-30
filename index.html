@@ -2,11 +2,88 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>PapelArt</title>
+  <title>PapelArt — Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .center {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 320px;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+
+    .coming-soon {
+      font-size: 18px;
+      letter-spacing: 4px;
+      opacity: 0.7;
+    }
+
+    footer {
+      padding: 30px 0;
+      display: flex;
+      gap: 30px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    footer a:hover {
+      opacity: 0.6;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>PapelArt</h1>
-  <p>Stampa 3D personalizzata, design e artigianato.</p>
-  <p>In arrivo.</p>
+
+  <div class="center">
+    <img src="images/logo.png" alt="PapelArt logo" class="logo">
+    <div class="coming-soon">COMING SOON</div>
+  </div>
+
+  <footer>
+    <a href="https://www.instagram.com/papelart_shop" target="_blank">
+      Instagram · papelart_shop
+    </a>
+
+    <a href="https://www.tiktok.com/@papelart.shop" target="_blank">
+      TikTok · papelart.shop
+    </a>
+
+    <a href="#">
+      WhatsApp · numero in arrivo
+    </a>
+  </footer>
+
 </body>
 </html>
